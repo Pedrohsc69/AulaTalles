@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/TasksONE/Calculator/Calculator.iml" filepath="$PROJECT_DIR$/TasksONE/Calculator/Calculator.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/JAVA POO.iml" filepath="$PROJECT_DIR$/.idea/JAVA POO.iml" />
-      <module fileurl="file://$PROJECT_DIR$/TasksONE/Object/Object.iml" filepath="$PROJECT_DIR$/TasksONE/Object/Object.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Object/Object.iml" filepath="$PROJECT_DIR$/Object/Object.iml" />
     </modules>
   </component>
 </project>
