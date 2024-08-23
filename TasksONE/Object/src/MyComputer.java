@@ -2,9 +2,12 @@ public class MyComputer {
     public static void main(String[] args) {
         FunComputer computer = new FunComputer();
 
-        computer.atributoComputer("AMD Ryzen 9 5900XT","Dell gaming",32,1000);
-        computer.computerIsGood();
+        computer.atributoComputer("AMD Ryzen 9 5900XT","Dell Alienware m16 R2",32,1000);
 
-        System.out.print(computer.modelComputer());
+        computer.turnOn();
+        computer.openProgram("Google Chrome");
+        computer.closeProgram("Google Chrome");
+        computer.informationComputer();
+        computer.turnOff();
     }
 }

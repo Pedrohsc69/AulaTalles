@@ -3,8 +3,7 @@ public class FunComputer {
     String model;
     int memoriaRam;
     int storage;
-    boolean pcIsGood;
-    boolean pcUsed;
+    boolean ligado;
 
     void atributoComputer(String CPU, String modelo, int ram, int rom){
         processor = CPU;
@@ -12,11 +11,35 @@ public class FunComputer {
         memoriaRam = ram;
         storage = rom;
     }
-    String modelComputer(){
-        return model;
+    public void turnOn() {
+        this.ligado = true;
+        System.out.println("O notebook está ligado.");
     }
-    boolean computerIsGood(){
-        return pcIsGood;
+    public void turnOff() {
+        this.ligado = false;
+        System.out.println("O notebook está desligado.");
+    }
+
+    public void openProgram(String programa) {
+        if (this.ligado) {
+            System.out.println("Abrindo o programa: " + programa);
+        } else {
+            System.out.println("Você precisa ligar o notebook primeiro.");
+        }
+    }
+
+    public void closeProgram(String programa) {
+        if (this.ligado) {
+            System.out.println("Fechando o programa: " + programa);
+        } else {
+            System.out.println("Você precisa ligar o notebook primeiro.");
+        }
+    }
+    void informationComputer(){
+        System.out.println("Modelo: "+ model);
+        System.out.println("Processador: "+ processor);
+        System.out.println("Memória RAM: "+ memoriaRam);
+        System.out.println("Armazenamento interno: "+ storage);
     }
 
 
