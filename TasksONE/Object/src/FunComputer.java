@@ -11,16 +11,16 @@ public class FunComputer {
         memoriaRam = ram;
         storage = rom;
     }
-    public void turnOn() {
+    void turnOn() {
         this.ligado = true;
         System.out.println("O notebook está ligado.");
     }
-    public void turnOff() {
+    void turnOff() {
         this.ligado = false;
         System.out.println("O notebook está desligado.");
     }
 
-    public void openProgram(String programa) {
+    void openProgram(String programa) {
         if (this.ligado) {
             System.out.println("Abrindo o programa: " + programa);
         } else {
@@ -28,7 +28,7 @@ public class FunComputer {
         }
     }
 
-    public void closeProgram(String programa) {
+    void closeProgram(String programa) {
         if (this.ligado) {
             System.out.println("Fechando o programa: " + programa);
         } else {
