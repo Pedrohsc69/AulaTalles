@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/TasksTHREE/Array/Array.iml" filepath="$PROJECT_DIR$/TasksTHREE/Array/Array.iml" />
       <module fileurl="file://$PROJECT_DIR$/TasksONE/Calculator/Calculator.iml" filepath="$PROJECT_DIR$/TasksONE/Calculator/Calculator.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/JAVA POO.iml" filepath="$PROJECT_DIR$/.idea/JAVA POO.iml" />
       <module fileurl="file://$PROJECT_DIR$/TasksTHREE/Number ImpaPar/Number ImpaPar.iml" filepath="$PROJECT_DIR$/TasksTHREE/Number ImpaPar/Number ImpaPar.iml" />
